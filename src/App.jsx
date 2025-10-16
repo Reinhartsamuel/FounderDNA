@@ -30,6 +30,17 @@ function App() {
     }
   };
 
+  const handleBack = () => {
+    if (currentQuestionIndex > 0) {
+      setCurrentQuestionIndex(currentQuestionIndex - 1);
+      setAnswers(answers.slice(0, -1));
+    } else {
+      setScreen('landing');
+      setAnswers([]);
+      setCurrentQuestionIndex(0);
+    }
+  };
+
   return (
     <>
       <div className="fixed top-0 left-0 right-0 z-10 bg-black border-b border-gray-900">
@@ -49,6 +60,7 @@ function App() {
             currentQuestion={currentQuestionIndex + 1}
             totalQuestions={questionsData.length}
             onSelect={handleAnswer}
+            onBack={handleBack}
           />
         )}
 

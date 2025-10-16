@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-export default function QuestionCard({ question, currentQuestion, totalQuestions, onSelect }) {
+export default function QuestionCard({ question, currentQuestion, totalQuestions, onSelect, onBack }) {
   const [options, setOptions] = useState([]);
   const [selectedIndex, setSelectedIndex] = useState(null);
 
@@ -20,8 +20,19 @@ export default function QuestionCard({ question, currentQuestion, totalQuestions
     <div className="min-h-screen bg-black flex items-center justify-center px-4 py-12">
       <div className="max-w-3xl w-full space-y-8">
         <div className="text-center space-y-4">
-          <div className="text-sm text-gray-500 font-medium tracking-wider uppercase">
-            Question {currentQuestion} of {totalQuestions}
+          <div className="flex items-center justify-center gap-4">
+            <button
+              onClick={onBack}
+              className="text-gray-500 hover:text-white transition-colors duration-200 flex items-center gap-2 text-sm font-medium"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-4 h-4">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+              </svg>
+              Back
+            </button>
+            <div className="text-sm text-gray-500 font-medium tracking-wider uppercase">
+              Question {currentQuestion} of {totalQuestions}
+            </div>
           </div>
           <div className="w-full bg-gray-900 rounded-full h-1.5 overflow-hidden">
             <div
