@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "text": "When you get a new project idea, what excites you most?",
+    "options": [
+      { "text": "Turning the idea into a working system that scales", "tags": ["Systems", "Grounded"] },
+      { "text": "Pitching it to others and getting them onboard", "tags": ["People", "Visionary"] },
+      { "text": "Organizing steps and processes to execute it efficiently", "tags": ["Systems", "Grounded"] },
+      { "text": "Collaborating with teammates to shape it together", "tags": ["People", "Grounded"] }
+    ]
+  },
+  {
+    "id": 2,
+    "text": "Faced with a problem, your instinct is to…",
+    "options": [
+      { "text": "Brainstorm creative ways to solve it", "tags": ["Visionary"] },
+      { "text": "Research what's been done before and adapt it", "tags": ["Grounded"] },
+      { "text": "Ask others for input and discuss", "tags": ["People"] },
+      { "text": "Analyze the data quietly until a clear pattern emerges", "tags": ["Systems"] }
+    ]
+  },
+  {
+    "id": 3,
+    "text": "What kind of task gives you the most satisfaction?",
+    "options": [
+      { "text": "Building something new from scratch", "tags": ["Visionary", "Systems"] },
+      { "text": "Optimizing a messy workflow", "tags": ["Grounded", "Systems"] },
+      { "text": "Coaching someone to achieve their goals", "tags": ["People", "Grounded"] },
+      { "text": "Presenting or promoting a new idea", "tags": ["People", "Visionary"] }
+    ]
+  },
+  {
+    "id": 4,
+    "text": "How do you usually make important decisions?",
+    "options": [
+      { "text": "Based on intuition and big-picture vision", "tags": ["Visionary"] },
+      { "text": "Based on available data and logical reasoning", "tags": ["Grounded", "Systems"] },
+      { "text": "After talking with others and getting feedback", "tags": ["People"] },
+      { "text": "After testing small experiments", "tags": ["Visionary", "Systems"] }
+    ]
+  },
+  {
+    "id": 5,
+    "text": "In a team, you naturally take on the role of…",
+    "options": [
+      { "text": "The one who ensures everything is organized", "tags": ["Grounded", "Systems"] },
+      { "text": "The one who motivates and energizes the group", "tags": ["Visionary", "People"] },
+      { "text": "The one who supports and connects everyone", "tags": ["Grounded", "People"] },
+      { "text": "The one who challenges assumptions and suggests bold changes", "tags": ["Visionary", "Systems"] }
+    ]
+  },
+  {
+    "id": 6,
+    "text": "Which sentence feels most like you?",
+    "options": [
+      { "text": "I like exploring new possibilities.", "tags": ["Visionary"] },
+      { "text": "I like knowing the system is predictable.", "tags": ["Grounded"] },
+      { "text": "I like understanding people's motivations.", "tags": ["People"] },
+      { "text": "I like understanding how things work.", "tags": ["Systems"] }
+    ]
+  },
+  {
+    "id": 7,
+    "text": "When deadlines get tight, you…",
+    "options": [
+      { "text": "Reorganize priorities and focus on what's critical", "tags": ["Grounded", "Systems"] },
+      { "text": "Rally the team and keep morale high", "tags": ["People", "Visionary"] },
+      { "text": "Trust your instincts and take bold action", "tags": ["Visionary", "Systems"] },
+      { "text": "Follow the plan precisely, step by step", "tags": ["Grounded", "Systems"] }
+    ]
+  },
+  {
+    "id": 8,
+    "text": "What do you enjoy more?",
+    "options": [
+      { "text": "Talking to new people and exchanging ideas", "tags": ["People"] },
+      { "text": "Refining a process to make it smoother", "tags": ["Systems"] },
+      { "text": "Launching new initiatives quickly", "tags": ["Visionary"] },
+      { "text": "Maintaining order and consistency", "tags": ["Grounded"] }
+    ]
+  },
+  {
+    "id": 9,
+    "text": "When starting something new, you prefer to…",
+    "options": [
+      { "text": "Plan carefully before acting", "tags": ["Grounded"] },
+      { "text": "Jump in and figure it out along the way", "tags": ["Visionary"] },
+      { "text": "Find collaborators early", "tags": ["People"] },
+      { "text": "Build a framework first", "tags": ["Systems"] }
+    ]
+  },
+  {
+    "id": 10,
+    "text": "Which describes you better?",
+    "options": [
+      { "text": "Structured, meticulous, detail-oriented", "tags": ["Grounded", "Systems"] },
+      { "text": "Charismatic, energetic, people-first", "tags": ["Visionary", "People"] },
+      { "text": "Adaptable, practical, steady", "tags": ["Grounded", "People"] },
+      { "text": "Bold, imaginative, curious", "tags": ["Visionary", "Systems"] }
+    ]
+  },
+  {
+    "id": 11,
+    "text": "You feel drained when…",
+    "options": [
+      { "text": "There's too much chaos or uncertainty", "tags": ["Grounded"] },
+      { "text": "You have to work alone for too long", "tags": ["People"] },
+      { "text": "You're stuck doing repetitive tasks", "tags": ["Visionary"] },
+      { "text": "You need to manage other people's emotions", "tags": ["Systems"] }
+    ]
+  },
+  {
+    "id": 12,
+    "text": "You feel most in flow when…",
+    "options": [
+      { "text": "Everything runs efficiently and precisely", "tags": ["Grounded", "Systems"] },
+      { "text": "You're presenting or persuading", "tags": ["Visionary", "People"] },
+      { "text": "You're refining or debugging a complex process", "tags": ["Grounded", "Systems"] },
+      { "text": "You're connecting people who should work together", "tags": ["Grounded", "People"] }
+    ]
+  },
+  {
+    "id": 13,
+    "text": "Which do you value more in a colleague?",
+    "options": [
+      { "text": "Reliability and consistency", "tags": ["Grounded"] },
+      { "text": "Creativity and vision", "tags": ["Visionary"] },
+      { "text": "Emotional intelligence", "tags": ["People"] },
+      { "text": "Technical mastery", "tags": ["Systems"] }
+    ]
+  },
+  {
+    "id": 14,
+    "text": "Your workspace is usually…",
+    "options": [
+      { "text": "Organized, everything in its place", "tags": ["Grounded", "Systems"] },
+      { "text": "Lively and full of conversations", "tags": ["People"] },
+      { "text": "Controlled chaos — I know where everything is", "tags": ["Visionary", "Systems"] },
+      { "text": "Clean, minimalist, functional", "tags": ["Grounded", "Systems"] }
+    ]
+  },
+  {
+    "id": 15,
+    "text": "When someone disagrees with you, you…",
+    "options": [
+      { "text": "Want to discuss and understand their feelings", "tags": ["People"] },
+      { "text": "Want to check the facts", "tags": ["Systems"] },
+      { "text": "Want to find the most logical resolution", "tags": ["Grounded", "Systems"] },
+      { "text": "Want to persuade them through your perspective", "tags": ["Visionary", "People"] }
+    ]
+  },
+  {
+    "id": 16,
+    "text": "In a crisis, you're most likely to…",
+    "options": [
+      { "text": "Stay calm and rely on structure", "tags": ["Grounded"] },
+      { "text": "Step up and lead communication", "tags": ["People"] },
+      { "text": "Adapt quickly with creative solutions", "tags": ["Visionary"] },
+      { "text": "Analyze the situation objectively before acting", "tags": ["Systems"] }
+    ]
+  },
+  {
+    "id": 17,
+    "text": "What kind of praise means the most to you?",
+    "options": [
+      { "text": "You make everything run so smoothly.", "tags": ["Grounded"] },
+      { "text": "You always find the smart fix.", "tags": ["Systems"] },
+      { "text": "You inspire everyone around you.", "tags": ["People"] },
+      { "text": "You come up with ideas no one else sees.", "tags": ["Visionary"] }
+    ]
+  },
+  {
+    "id": 18,
+    "text": "If you had a day off to work on anything you like, you'd…",
+    "options": [
+      { "text": "Design a new workflow or automation", "tags": ["Systems"] },
+      { "text": "Explore a new idea or tool", "tags": ["Visionary"] },
+      { "text": "Help a friend improve their project", "tags": ["People"] },
+      { "text": "Organize and declutter something", "tags": ["Grounded"] }
+    ]
+  },
+  {
+    "id": 19,
+    "text": "When joining a project late, you first…",
+    "options": [
+      { "text": "Observe the existing system to see how it works", "tags": ["Systems"] },
+      { "text": "Talk to people to understand dynamics", "tags": ["People"] },
+      { "text": "Ask about goals and deadlines", "tags": ["Grounded"] },
+      { "text": "Look for what could be improved or innovated", "tags": ["Visionary"] }
+    ]
+  },
+  {
+    "id": 20,
+    "text": "You prefer success that comes from…",
+    "options": [
+      { "text": "Precision and efficiency", "tags": ["Grounded", "Systems"] },
+      { "text": "Connection and influence", "tags": ["People"] },
+      { "text": "Innovation and originality", "tags": ["Visionary"] },
+      { "text": "Consistency and reliability", "tags": ["Grounded"] }
+    ]
+  },
+  {
+    "id": 21,
+    "text": "Which statement resonates most?",
+    "options": [
+      { "text": "Ideas are only as good as their execution.", "tags": ["Grounded", "Systems"] },
+      { "text": "Nothing great happens without people.", "tags": ["People"] },
+      { "text": "Innovation keeps the world alive.", "tags": ["Visionary"] },
+      { "text": "Details determine success.", "tags": ["Systems"] }
+    ]
+  },
+  {
+    "id": 22,
+    "text": "You learn best when…",
+    "options": [
+      { "text": "Experimenting and doing", "tags": ["Visionary"] },
+      { "text": "Listening and discussing", "tags": ["People"] },
+      { "text": "Observing patterns over time", "tags": ["Grounded"] },
+      { "text": "Studying frameworks and systems", "tags": ["Systems"] }
+    ]
+  },
+  {
+    "id": 23,
+    "text": "If your startup grew fast, what would you focus on?",
+    "options": [
+      { "text": "Maintaining structure and scalable processes", "tags": ["Grounded", "Systems"] },
+      { "text": "Expanding the team culture and collaboration", "tags": ["People", "Grounded"] },
+      { "text": "Experimenting with new products", "tags": ["Visionary", "Systems"] },
+      { "text": "Promoting the brand and community", "tags": ["Visionary", "People"] }
+    ]
+  },
+  {
+    "id": 24,
+    "text": "Which kind of meeting do you prefer?",
+    "options": [
+      { "text": "Problem-solving with clear outcomes", "tags": ["Grounded", "Systems"] },
+      { "text": "Brainstorming with free-flowing ideas", "tags": ["Visionary"] },
+      { "text": "Syncs with the team to stay aligned", "tags": ["People"] },
+      { "text": "Quick, efficient standups", "tags": ["Grounded"] }
+    ]
+  },
+  {
+    "id": 25,
+    "text": "At the end of a workday, you feel best when…",
+    "options": [
+      { "text": "You've completed all planned tasks", "tags": ["Grounded"] },
+      { "text": "You've inspired or helped someone", "tags": ["People"] },
+      { "text": "You've figured out a better way to do something", "tags": ["Systems"] },
+      { "text": "You've started something exciting", "tags": ["Visionary"] }
+    ]
+  }
+]
