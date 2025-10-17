@@ -1,43 +1,43 @@
 export const archetypeDescriptions = {
-  "Creator": {
-    title: "Creator",
-    subtitle: "Visionary–Dynamic",
-    description: "You thrive on bringing new ideas to life. Innovation, experimentation, and creative problem-solving energize you. You're comfortable with uncertainty and love building things from scratch. Your strength lies in seeing possibilities others miss and turning them into reality through bold action."
+  "Architect": {
+    title: "Architect",
+    subtitle: "Systems × Visionary",
+    description: "You're a vision-driven builder who designs scalable frameworks and loves optimizing for efficiency and elegance. You see the big picture while understanding the intricate details needed to bring it to life. Your strength lies in creating systematic solutions that transform bold ideas into sustainable realities."
   },
-  "Star": {
-    title: "Star",
-    subtitle: "Visionary–People",
-    description: "You're a natural communicator who inspires and energizes others with your vision. You combine creativity with charisma, making you excellent at pitching ideas, building relationships, and leading through influence. You thrive in the spotlight and excel at bringing people together around a compelling future."
+  "Connector": {
+    title: "Connector",
+    subtitle: "People × Visionary",
+    description: "You're a natural networker who thrives on collaboration, partnerships, and shared creative momentum. You excel at bringing people together around innovative ideas and building relationships that fuel growth. Your strength is in seeing possibilities through the lens of human connection and shared vision."
   },
-  "Supporter": {
-    title: "Supporter",
-    subtitle: "People–Dynamic",
-    description: "You excel at connecting people and creating collaborative environments. You're the glue that holds teams together, combining emotional intelligence with practical action. You thrive on helping others succeed and building strong, supportive relationships that enable great work."
+  "Operator": {
+    title: "Operator",
+    subtitle: "Grounded × Systems",
+    description: "You're a reliable executor who builds solid processes, manages risk, and ensures consistent results. You excel at creating stability through well-designed systems and methodical execution. Your strength lies in turning complex operations into smooth, predictable outcomes that others can depend on."
   },
-  "Deal Maker": {
-    title: "Deal Maker",
-    subtitle: "People–Grounded",
-    description: "You're skilled at reading people and negotiating win-win outcomes. You combine interpersonal savvy with practical thinking, making you excellent at partnerships, sales, and relationship-based success. You understand what motivates people and how to create value through connections."
+  "Innovator": {
+    title: "Innovator",
+    subtitle: "Visionary × Systems",
+    description: "You're an experimental thinker who constantly tests, iterates, and redefines what's possible through structured innovation. You combine bold imagination with systematic problem-solving to push boundaries. Your strength is in creating breakthrough solutions through disciplined creativity and technical excellence."
   },
-  "Trader": {
-    title: "Trader",
-    subtitle: "Grounded–Practical",
-    description: "You excel at timing and practical execution. You're adaptable, resourceful, and excellent at spotting opportunities in the moment. You thrive on taking calculated risks and making things happen efficiently. Your strength is in turning resources into results through smart, grounded action."
+  "Guardian": {
+    title: "Guardian",
+    subtitle: "Grounded × People",
+    description: "You're a stable and supportive team builder who values trust, empathy, and long-term cohesion. You create environments where people feel secure and valued, enabling them to do their best work. Your strength lies in nurturing relationships and building foundations of reliability that teams can thrive on."
   },
-  "Accumulator": {
-    title: "Accumulator",
-    subtitle: "Grounded–Systems",
-    description: "You're exceptional at building and maintaining sustainable systems. You value consistency, reliability, and long-term thinking. You excel at risk management, careful planning, and steadily accumulating resources and knowledge. Your strength is creating stable foundations that stand the test of time."
+  "Strategist": {
+    title: "Strategist",
+    subtitle: "Systems × Grounded",
+    description: "You're an analytical planner who creates sustainable growth through data-driven insight and structure. You excel at identifying patterns, mitigating risks, and building frameworks for long-term success. Your strength is in combining systematic thinking with practical wisdom to chart winning paths forward."
   },
-  "Lord": {
-    title: "Lord",
-    subtitle: "Systems–Analytical",
-    description: "You're a master strategist who excels at understanding complex systems and making data-driven decisions. You thrive on analysis, optimization, and building efficient structures. You see patterns others miss and excel at creating frameworks that enable scalable success. Your strength is in systematic thinking and strategic control."
+  "Catalyst": {
+    title: "Catalyst",
+    subtitle: "Visionary × People",
+    description: "You're a charismatic motivator who inspires others into action and brings bold ideas to life. You energize teams with your enthusiasm and vision, turning possibilities into momentum. Your strength lies in rallying people around ambitious goals and creating the spark that ignites transformative change."
   },
-  "Mechanic": {
-    title: "Mechanic",
-    subtitle: "Systems–Visionary",
-    description: "You're exceptional at understanding how things work and improving them. You combine technical mastery with innovative thinking, making you excellent at engineering solutions and optimizing systems. You thrive on figuring out complex problems and building better processes that push boundaries."
+  "Maker": {
+    title: "Maker",
+    subtitle: "Grounded × Visionary",
+    description: "You're an independent doer who turns abstract ideas into tangible results with craft and consistency. You balance creative vision with practical execution, bringing concepts to life through hands-on work. Your strength is in transforming imagination into reality through steady, skillful action."
   }
 };
 
@@ -54,22 +54,22 @@ export const calculateResult = (answers) => {
   const [top1, top2] = sorted.map(s => s[0]);
 
   const archetypeMap = {
-    "Visionary,People": "Star",
-    "People,Visionary": "Star",
-    "People,Grounded": "Deal Maker",
-    "Grounded,People": "Deal Maker",
-    "Grounded,Systems": "Accumulator",
-    "Systems,Grounded": "Accumulator",
-    "Systems,Visionary": "Mechanic",
-    "Visionary,Systems": "Mechanic",
-    "Visionary,Grounded": "Creator",
-    "Grounded,Visionary": "Trader",
-    "People,Systems": "Supporter",
-    "Systems,People": "Lord"
+    "Systems,Visionary": "Architect",
+    "Visionary,Systems": "Architect",
+    "People,Visionary": "Connector",
+    "Visionary,People": "Catalyst",
+    "Grounded,Systems": "Operator",
+    "Systems,Grounded": "Strategist",
+    "Visionary,Grounded": "Maker",
+    "Grounded,Visionary": "Maker",
+    "Grounded,People": "Guardian",
+    "People,Grounded": "Guardian",
+    "Systems,People": "Architect",
+    "People,Systems": "Connector"
   };
 
   const key = `${top1},${top2}`;
-  const archetype = archetypeMap[key] || "Creator";
+  const archetype = archetypeMap[key] || "Architect";
 
   return {
     scores,
